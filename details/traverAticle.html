@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>云南自驾旅游网</title>
+
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <link rel="stylesheet" href="../css/hover.css"/>
+    <link rel="stylesheet" href="../css/animate.css"/>
+    <link rel="stylesheet" href="../css/sfzy-css.css"/>
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        div {
+            border: 0px solid #ddd;
+        }
+        .affix{
+            top:60px;
+        }
+        body{
+            position:relative;
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-torget="#my-side-id">
+<header class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header"  >
+            <a href="detail.html" class="navbar-brand hvr-grow-shadow">
+                <span>云南旅游网</span>
+            </a>
+            <a href="#cop" class="navbar-toggle" data-toggle="collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+        </div>
+        <div class="navbar-collapse collapse" id="cop">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle hvr-box-shadow-outset"  href="detail.html">
+                        首页
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" style="animation: fadeInDown 0.3s;">
+                        <li>
+                            <a href="detail.html">云南自驾游</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="detail.html">目的地</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="detail.html">快乐行</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="detail.html">推荐城市</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-left">
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle hvr-box-shadow-outset"  href="">
+                        用车
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" style="animation: fadeInDown 0.3s;">
+                        <li>
+                            <a href="car.html">用车首页</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="car.html">自驾租车</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="car.html">私家车出租</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="car.html">长组计划</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="car.html">常见问题</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="car.html">新闻中心</a>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-left">
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle hvr-box-shadow-outset"  href="">
+                        攻略
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" style="animation: fadeInDown 0.3s;">
+                        <li>
+                            <a href="tourStrategy.html">攻略首页</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="tourStrategy.html">穷游攻略</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="tourStrategy.html">普通攻略</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="tourStrategy.html">奢华攻略</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="tourStrategy.html">城市攻略</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="tourStrategy.html">自驾攻略</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="tourStrategy.html">情路书画</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-left" style="animation: flipInX 0.3s;">
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle hvr-box-shadow-outset"  href="">
+                        点评
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" style="animation: fadeInDown 0.3s;">
+                        <li>
+                            <a href="discuss.html">点评首页</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="discuss.html">租车点评</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="discuss.html">酒店点评</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="discuss.html">美食点评</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="discuss.html">风景点评</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="discuss.html">城市点评</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="discuss.html">最美一角</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hvr-box-shadow-outset"><a href="">China(中文)</a></li>
+                <li class="hvr-box-shadow-outset"><a href="#modalLogin" data-toggle="modal">注册</a></li>
+                <li class="collapse dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle hvr-box-shadow-outset" href="">
+                        登陆
+                        <span class="caret"></span>
+                    </a>
+                    <div class="dropdown-menu landing" style="animation: fadeInDown 0.5s;">
+                        <h2>登陆</h2>
+                        <h5>云南自驾行，开启你的旅程</h5>
+                        <form action="">
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <label for="uname2" class="sr-only">用户名：</label>
+                                    <input class="form-control" type="text" id="uname2" placeholder="用户名"/>
+                                </div>
+                                <div class="form-group">
+                                    <label for="upwd2" class="sr-only">密码：</label>
+                                    <input class="form-control" type="text" id="upwd2" placeholder="密码"/>
+                                </div>
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"/>我接受本站的注册条款
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <button type="button" class="btn btn-primary">登陆</button>
+                    </div>
+                </li>
+            </ul>
+            <form action="" class="navbar-form navbar-right" id="form-search">
+                <div class="form-group has-feedback">
+                    <label for="search" class="sr-only"></label>
+                    <input id="search" type="search" class="form-control" placeholder="Search..."/>
+                    <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                </div>
+            </form>
+            <span class="navbar-text navbar-right hidden-xs">|</span>
+            <a class="navbar-link navbar-text navbar-right hidden-xs" href="">查找</a>
+            <span class="glyphicon glyphicon-search navbar-text navbar-right mirror"></span>
+        </div>
+    </div>
+</header>
+<section>
+    <div style="position: relative;" class="container-fluid">
+        <div class="carousel slide"  data-interval="2000" data-ride="carousel" id="btn2">
+            <ol class="carousel-indicators">
+                <li data-target="#btn2" data-slide-to="0" class="active hvr-grow-shadow"></li>
+                <li data-target="#btn2" data-slide-to="1" class="hvr-grow-shadow"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active ">
+                    <img class="img-responsive" src="../img/yj01.jpeg" alt=""/>
+                    <div class="carousel-caption">
+                        <h4>香格里拉普拉达湖</h4>
+                        <a href="#" class="hvr-float-shadow">走进我的旅程</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-responsive" src="../img/youji02.jpeg" alt=""/>
+                    <div class="carousel-caption">
+                        <h4>东川草海</h4>
+                        <a href="#" class="hvr-float-shadow">走进我的旅程</a>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#btn2" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" ></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#btn2" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="container" style="position: absolute;top:90%;left:10%;">
+            <div class="sf-user pull-left hvr-float-shadow" style="margin-right:100px;"></div>
+            <div class="pull-left" style="margin-right:100px;margin-top:70px;">
+                <span class="text-info glyphicon glyphicon-user"></span>
+                <a href="" class="hvr-float-shadow">尚方正宇(杭州)</a>
+                <b style="display:inline-block;float:right"><span>15</span>
+                    <button class="btn btn-danger btn-xs hvr-grow">
+                        <span class="glyphicon glyphicon-heart hvr-grow"></span>
+                        顶
+                    </button>
+                </b>
+            </div>
+            <p class="pull-left hvr-float-shadow" style="margin-top:70px;">2016-04-16 21:01</p>
+        </div>
+    </div>
+
+</section>
+<section style="background-color:#fff;">
+    <div class="container">
+        <div class="page-header">
+            <h2><a class="sf-a hvr-float-shadow" href="">一个人的云南</a></h2>
+        </div>
+        <div class="well">
+            <p class="hvr-wobble-horizontal">作者：尚方正宇</p><br>
+            <p class="hvr-wobble-horizontal">编辑：尚方正宇</p>
+        </div>
+        <div class="row">
+            <div class="col-xs-10">
+                <h3 id="level0"></h3><br><br><br>
+                <h3 class="text-center text-success">Day1. 云南，我又来啦！！</h3>
+                <div class="text-center" style="color:#333;margin-top:20px;">
+                    <div class="hvr-shadow-radial" style="margin-bottom: 10px;padding:5px;">
+                        <p style="line-height: 20px;">
+                            &nbsp; &nbsp;不知道为什么对云南这么向往，明明有很多种选择，但还是义无反顾的再次选择云南。也许是因为洱海，也许是因为大冰的小屋，也许是因为那里的天空和云彩。
+                        </p>
+                        <p style="line-height: 20px;">
+                            &nbsp; &nbsp;订好机票，心里踏实了，因为去过一次所以不用怎么做攻略，带着一颗热火的心，出发吧！
+                        </p>
+                        <p style="line-height: 20px;">
+                            &nbsp; &nbsp;下午三点多的飞机，到了长水机场快七点了，我们坐机场大巴空港二号线到终点锦江酒店，这里离火车站非常近。不过不推荐住在离火车站太近的地方，这里比较乱，上次就是在汉庭火车站店住，就有往里塞小卡片的。。。
+                            在昆明的一晚订的汉庭北京路店，离火车站不算远，也不算太近，所以比较安全不杂乱，我们也好赶火车。前几天发生的北京和颐酒店女生被拖拽事件，现在才知道汉庭也算如家旗下的，想想女生在酒店住还是比较危险的，好在我和JZ都不是什么软柿子。。。警惕性也比较高，一进门就会把锁链锁上。
+                            收拾好了都九点多了，我们很累不想出去吃饭就订了外卖，外卖送到的时候都十点多了 。。上电梯的时候都需要刷卡，但不知道为什么送外卖的可以直接送到我们房门口，也许是前台给刷的卡，但是
+                            以后还是需要警惕的，出门在外不怕多几个心眼，就怕缺心眼。。
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a class="hvr-curl-top-left" href="">
+                                <img class="img-responsive" src="../img/ss2.jpeg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <h3 id="level1"></h3><br><br>
+                <h3 class="text-center text-success">Day2. 云南，我又来啦！！</h3>
+                <div class="text-center" style="color:#333;margin-top:20px;">
+                    <div class="hvr-shadow-radial" style="margin-bottom: 10px;padding:5px;">
+                        <p style="line-height: 20px;">
+                            &nbsp; &nbsp;不知道为什么对云南这么向往，明明有很多种选择，但还是义无反顾的再次选择云南。也许是因为洱海，也许是因为大冰的小屋，也许是因为那里的天空和云彩。
+                        </p>
+                        <p style="line-height: 20px;">
+                            &nbsp; &nbsp;订好机票，心里踏实了，因为去过一次所以不用怎么做攻略，带着一颗热火的心，出发吧！
+                        </p>
+                        <p style="line-height: 20px;">
+                            &nbsp; &nbsp;下午三点多的飞机，到了长水机场快七点了，我们坐机场大巴空港二号线到终点锦江酒店，这里离火车站非常近。不过不推荐住在离火车站太近的地方，这里比较乱，上次就是在汉庭火车站店住，就有往里塞小卡片的。。。
+                            在昆明的一晚订的汉庭北京路店，离火车站不算远，也不算太近，所以比较安全不杂乱，我们也好赶火车。前几天发生的北京和颐酒店女生被拖拽事件，现在才知道汉庭也算如家旗下的，想想女生在酒店住还是比较危险的，好在我和JZ都不是什么软柿子。。。警惕性也比较高，一进门就会把锁链锁上。
+                            收拾好了都九点多了，我们很累不想出去吃饭就订了外卖，外卖送到的时候都十点多了 。。上电梯的时候都需要刷卡，但不知道为什么送外卖的可以直接送到我们房门口，也许是前台给刷的卡，但是
+                            以后还是需要警惕的，出门在外不怕多几个心眼，就怕缺心眼。。
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a class="hvr-curl-top-left" href="">
+                                <img class="img-responsive" src="../img/ss3.jpeg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <h3 id="level2"></h3><br><br>
+                <h3 class="text-center text-success">Day3. 云南，我又来啦！！</h3>
+                <div class="text-center" style="color:#333;margin-top:20px;">
+                    <div class="hvr-shadow-radial" style="margin-bottom: 10px;padding:5px;">
+                        <p style="line-height: 20px;">
+                            &nbsp; &nbsp;不知道为什么对云南这么向往，明明有很多种选择，但还是义无反顾的再次选择云南。也许是因为洱海，也许是因为大冰的小屋，也许是因为那里的天空和云彩。
+                        </p>
+                        <p style="line-height: 20px;">
+                            &nbsp; &nbsp;订好机票，心里踏实了，因为去过一次所以不用怎么做攻略，带着一颗热火的心，出发吧！
+                        </p>
+                        <p style="line-height: 20px;">
+                            &nbsp; &nbsp;下午三点多的飞机，到了长水机场快七点了，我们坐机场大巴空港二号线到终点锦江酒店，这里离火车站非常近。不过不推荐住在离火车站太近的地方，这里比较乱，上次就是在汉庭火车站店住，就有往里塞小卡片的。。。
+                            在昆明的一晚订的汉庭北京路店，离火车站不算远，也不算太近，所以比较安全不杂乱，我们也好赶火车。前几天发生的北京和颐酒店女生被拖拽事件，现在才知道汉庭也算如家旗下的，想想女生在酒店住还是比较危险的，好在我和JZ都不是什么软柿子。。。警惕性也比较高，一进门就会把锁链锁上。
+                            收拾好了都九点多了，我们很累不想出去吃饭就订了外卖，外卖送到的时候都十点多了 。。上电梯的时候都需要刷卡，但不知道为什么送外卖的可以直接送到我们房门口，也许是前台给刷的卡，但是
+                            以后还是需要警惕的，出门在外不怕多几个心眼，就怕缺心眼。。
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a class="hvr-curl-top-left" href="">
+                                <img class="img-responsive" src="../img/ss7.jpeg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <h3 id="level3"></h3><br><br>
+                <h3 class="text-center text-success">Day4. 云南，我又来啦！！</h3>
+                <div class="text-center" style="color:#333;margin-top:20px;">
+                    <div class="hvr-shadow-radial" style="margin-bottom: 10px;padding:5px;">
+                        <p style="line-height: 20px;">
+                            &nbsp; &nbsp;不知道为什么对云南这么向往，明明有很多种选择，但还是义无反顾的再次选择云南。也许是因为洱海，也许是因为大冰的小屋，也许是因为那里的天空和云彩。
+                        </p>
+                        <p style="line-height: 20px;">
+                            &nbsp; &nbsp;订好机票，心里踏实了，因为去过一次所以不用怎么做攻略，带着一颗热火的心，出发吧！
+                        </p>
+                        <p style="line-height: 20px;">
+                            &nbsp; &nbsp;下午三点多的飞机，到了长水机场快七点了，我们坐机场大巴空港二号线到终点锦江酒店，这里离火车站非常近。不过不推荐住在离火车站太近的地方，这里比较乱，上次就是在汉庭火车站店住，就有往里塞小卡片的。。。
+                            在昆明的一晚订的汉庭北京路店，离火车站不算远，也不算太近，所以比较安全不杂乱，我们也好赶火车。前几天发生的北京和颐酒店女生被拖拽事件，现在才知道汉庭也算如家旗下的，想想女生在酒店住还是比较危险的，好在我和JZ都不是什么软柿子。。。警惕性也比较高，一进门就会把锁链锁上。
+                            收拾好了都九点多了，我们很累不想出去吃饭就订了外卖，外卖送到的时候都十点多了 。。上电梯的时候都需要刷卡，但不知道为什么送外卖的可以直接送到我们房门口，也许是前台给刷的卡，但是
+                            以后还是需要警惕的，出门在外不怕多几个心眼，就怕缺心眼。。
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a class="hvr-curl-top-left" href="">
+                                <img class="img-responsive" src="../img/ss6.jpeg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <h3 id="level4"></h3><br><br>
+                <h3 class="text-center text-success">Day5. 云南，我又来啦！！</h3>
+                <div class="text-center" style="color:#333;margin-top:20px;">
+                    <div class="hvr-shadow-radial" style="margin-bottom: 10px;padding:5px;">
+                        <p style="line-height: 20px;">
+                            &nbsp; &nbsp;不知道为什么对云南这么向往，明明有很多种选择，但还是义无反顾的再次选择云南。也许是因为洱海，也许是因为大冰的小屋，也许是因为那里的天空和云彩。
+                        </p>
+                        <p style="line-height: 20px;">
+                            &nbsp; &nbsp;订好机票，心里踏实了，因为去过一次所以不用怎么做攻略，带着一颗热火的心，出发吧！
+                        </p>
+                        <p style="line-height: 20px;">
+                            &nbsp; &nbsp;下午三点多的飞机，到了长水机场快七点了，我们坐机场大巴空港二号线到终点锦江酒店，这里离火车站非常近。不过不推荐住在离火车站太近的地方，这里比较乱，上次就是在汉庭火车站店住，就有往里塞小卡片的。。。
+                            在昆明的一晚订的汉庭北京路店，离火车站不算远，也不算太近，所以比较安全不杂乱，我们也好赶火车。前几天发生的北京和颐酒店女生被拖拽事件，现在才知道汉庭也算如家旗下的，想想女生在酒店住还是比较危险的，好在我和JZ都不是什么软柿子。。。警惕性也比较高，一进门就会把锁链锁上。
+                            收拾好了都九点多了，我们很累不想出去吃饭就订了外卖，外卖送到的时候都十点多了 。。上电梯的时候都需要刷卡，但不知道为什么送外卖的可以直接送到我们房门口，也许是前台给刷的卡，但是
+                            以后还是需要警惕的，出门在外不怕多几个心眼，就怕缺心眼。。
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a class="hvr-curl-top-left" href="">
+                                <img class="img-responsive" src="../img/ss1.jpeg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <h3 id="level5"></h3><br><br>
+                <h3 class="text-center text-success ">Day6. 云南，我又来啦！！</h3>
+                <div class="text-center" style="color:#333;margin-top:20px;">
+                    <div class="hvr-shadow-radial" style="margin-bottom: 10px;padding:5px;">
+                        <p style="line-height: 20px;">
+                            &nbsp; &nbsp;不知道为什么对云南这么向往，明明有很多种选择，但还是义无反顾的再次选择云南。也许是因为洱海，也许是因为大冰的小屋，也许是因为那里的天空和云彩。
+                        </p>
+                        <p style="line-height: 20px;">
+                            &nbsp; &nbsp;订好机票，心里踏实了，因为去过一次所以不用怎么做攻略，带着一颗热火的心，出发吧！
+                        </p>
+                        <p style="line-height: 20px;">
+                            &nbsp; &nbsp;下午三点多的飞机，到了长水机场快七点了，我们坐机场大巴空港二号线到终点锦江酒店，这里离火车站非常近。不过不推荐住在离火车站太近的地方，这里比较乱，上次就是在汉庭火车站店住，就有往里塞小卡片的。。。
+                            在昆明的一晚订的汉庭北京路店，离火车站不算远，也不算太近，所以比较安全不杂乱，我们也好赶火车。前几天发生的北京和颐酒店女生被拖拽事件，现在才知道汉庭也算如家旗下的，想想女生在酒店住还是比较危险的，好在我和JZ都不是什么软柿子。。。警惕性也比较高，一进门就会把锁链锁上。
+                            收拾好了都九点多了，我们很累不想出去吃饭就订了外卖，外卖送到的时候都十点多了 。。上电梯的时候都需要刷卡，但不知道为什么送外卖的可以直接送到我们房门口，也许是前台给刷的卡，但是
+                            以后还是需要警惕的，出门在外不怕多几个心眼，就怕缺心眼。。
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a class="hvr-curl-top-left" href="">
+                                <img class="img-responsive" src="../img/ss3.jpeg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-2">
+                <div data-spy="affix" data-offset-top="700" id="my-side-id">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a class="hvr-float-shadow" href="#level0" title="0">第一天</a></li>
+                        <li><a class="hvr-float-shadow" href="#level1" title="1">第二天</a></li>
+                        <li><a class="hvr-float-shadow" href="#level2" title="2">第三天</a></li>
+                        <li><a class="hvr-float-shadow" href="#level3" title="3">第四天</a></li>
+                        <li><a class="hvr-float-shadow" href="#level4" title="4">第五天</a></li>
+                        <li><a class="hvr-float-shadow" href="#level5" title="5">第六天</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                云南自驾旅游网
+            </div>
+            <div class="col-xs-12">
+                <span>© 2016 Mafengwo.cn 京ICP备11015476号 京公网安备110105013401号 京ICP证110318号 新出网证(京)字242号
+                全国统一客服电话：4006-345-678网站地图</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="modal fade" id="modalLogin">  <!--半透明遮罩层-->
+    <div class="modal-dialog">  <!--宽高、定位层-->
+        <div class="modal-content">   <!--背景色、边框、倒角、阴影-->
+            <div class="modal-header">
+                <span data-dismiss="modal" class="close">&times;</span>
+                <h3 class="modal-title">注册</h3>
+            </div>
+            <div class="modal-body">
+                <h5>你是否来过云南？</h5>
+                <form action="">
+                    <div class="form-group">
+                        <label for="uname" class="sr-only">用户名：</label>
+                        <input class="form-control" type="text" id="uname" placeholder="用户名"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="upwd" class="sr-only">密码：</label>
+                        <input class="form-control" type="text" id="upwd" placeholder="密码"/>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"/>我接受本站的注册条款
+                        </label>
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="button">注册</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script>
+    (function () {
+        var s = document.createElement("script");
+        s.onload = function () {
+            bootlint.showLintReportForCurrentDocument([]);
+        };
+        s.src = "JS/bootlint.js";
+        document.body.appendChild(s)
+    })();
+    $('#list2 a').click(function () {
+        event.preventDefault();
+        $(this).tab('show');
+    });
+    $(function(){
+        $(".nav-stacked li a").click(function(event) {
+            var target=event.target||event.srcElement;
+            var index=target.title ;
+            var id='#'+'level'+index ;
+            $("html,body").animate({scrollTop: $(id).offset().top},500);
+        });
+    });
+</script>
+<script src="../js/bootlint.js"></script>
+<script>
+    (function () {
+        var s = document.createElement("script");
+        s.onload = function () {
+            bootlint.showLintReportForCurrentDocument([]);
+        };
+        s.src = "js/bootlint.js";
+        document.body.appendChild(s)
+    })();
+    $('[data-toggle="mask"]').hover(function () {
+        $(this).css({top: '0'});
+    }, function () {
+        $(this).css({top: '70%'});
+    });
+    //    $('.mirror').onmouseover(function(){
+    //        var  = $('#form-search');
+    //        if($content.is(":visible")){
+    //            $content.hide(600);
+    //        }else{
+    //            $content.show(600);
+    //        }
+    //    });
+</script>
+</body>
+</html>
